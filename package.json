@@ -1,54 +1,57 @@
 {
-  "name": "timer",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.1",
-    "@reduxjs/toolkit": "^2.0.1",
-    "react": "^18.2.0",
-    "react-circular-progressbar": "^2.1.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.0.4",
-    "react-router-dom": "^6.21.1",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^5.3.11",
-    "typescript": "^4.9.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint ./src --ext .ts,.tsx",
-    "lint:fix": "npm run lint -- --fix"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/node": "^16.18.68",
-    "@types/react": "^18.2.45",
-    "@types/react-dom": "^18.2.18",
-    "@types/styled-components": "^5.1.34",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "gh-pages": "^6.1.1",
-    "prettier": "^2.8.8",
-    "sass": "^1.69.5"
-  }
+    "homepage": "https://lizafront.github.io/Timer-Countdown/",
+    "name": "timer",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@mui/material": "^5.15.1",
+        "@reduxjs/toolkit": "^2.0.1",
+        "react": "^18.2.0",
+        "react-circular-progressbar": "^2.1.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^9.0.4",
+        "react-router-dom": "^6.21.1",
+        "react-scripts": "^5.0.1",
+        "styled-components": "^5.3.11",
+        "typescript": "^4.9.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint ./src --ext .ts,.tsx",
+        "lint:fix": "npm run lint -- --fix"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "^16.18.68",
+        "@types/react": "^18.2.45",
+        "@types/react-dom": "^18.2.18",
+        "@types/styled-components": "^5.1.34",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "gh-pages": "^6.1.1",
+        "prettier": "^2.8.8",
+        "sass": "^1.69.5"
+    }
 }
