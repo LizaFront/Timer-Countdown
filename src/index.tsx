@@ -1,14 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './app';
-import GlobalStyles from './assets/styles/global.styles'
+import { BrowserRouter } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(
-    document.getElementById('root') as HTMLElement
-);
+import { Provider } from 'react-redux';
+import store from 'store/store';
+
+import App from './app';
+
+import GlobalStyles from 'assets/styles/global.styles';
+import { StyledEngineProvider } from '@mui/material/styles';
+
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
     <React.StrictMode>
-        <App/>
-        <GlobalStyles/>
+        <Provider store={store}>
+            <BrowserRouter>
+                <StyledEngineProvider injectFirst>
+                    <App />
+                    <GlobalStyles />
+                </StyledEngineProvider>
+            </BrowserRouter>
+        </Provider>
     </React.StrictMode>
 );
