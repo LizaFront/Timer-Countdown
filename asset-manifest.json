@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Timer-Countdown/static/css/main.da0ed466.css",
-    "main.js": "/Timer-Countdown/static/js/main.7ef850e1.js",
+    "main.js": "/Timer-Countdown/static/js/main.2e14b42c.js",
     "static/media/alarm.mp3": "/Timer-Countdown/static/media/alarm.3523011bb22309537fbf.mp3",
     "static/media/icon-sun.svg": "/Timer-Countdown/static/media/icon-sun.821b5ada8d9e9acdbd0552bdfbcb444d.svg",
     "index.html": "/Timer-Countdown/index.html",
     "static/media/icon-moon.svg": "/Timer-Countdown/static/media/icon-moon.43294164b58b5d2db037225ae5cc432f.svg",
     "main.da0ed466.css.map": "/Timer-Countdown/static/css/main.da0ed466.css.map",
-    "main.7ef850e1.js.map": "/Timer-Countdown/static/js/main.7ef850e1.js.map"
+    "main.2e14b42c.js.map": "/Timer-Countdown/static/js/main.2e14b42c.js.map"
   },
   "entrypoints": [
     "static/css/main.da0ed466.css",
-    "static/js/main.7ef850e1.js"
+    "static/js/main.2e14b42c.js"
   ]
 }
